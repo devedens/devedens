@@ -6,8 +6,8 @@ export const mainMenu = [
     },
     {
       id:2,
-      name: "Project",
-      href: "project",
+      name: "Projects",
+      href: "projects",
     },
     {
       id:3,

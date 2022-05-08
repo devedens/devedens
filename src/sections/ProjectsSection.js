@@ -4,7 +4,7 @@ import React from "react";
 const ProjectsSection =() => {
   return (
     <section id="projects" >
-    Project
+     <h1 className="title__center">Projects</h1>
     </section>
   );
 };

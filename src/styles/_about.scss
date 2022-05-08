@@ -1,0 +1,28 @@
+@import '../styles/images';
+.about{
+    &__container{
+    
+    }
+    &__list-container{
+   display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: center;
+    }
+  
+}
+%img-properties{
+    content: "";
+    position:relative;
+ 
+    background-image: $_img_hello;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-hello{
+@extend %img-properties;
+margin: 1 rem ;
+width: 200px;
+height: 200px;
+    //transform: scale(1.2);
+}

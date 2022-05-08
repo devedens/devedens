@@ -3,14 +3,14 @@ import { mainMenu } from "../data/main-menu";
 
 const NavbarSection =() => {
   return (
-    <div className="navbar-container">
+    <nav className="navbar__container">
           {mainMenu.map((data) => (
-             <a href={"#"+data.href}>
+             <a className="navbar__option" href={"#"+data.href}>
              {data.name}
            </a>
           ))}
          
-    </div>
+    </nav>
   );
 }
 export default NavbarSection;
