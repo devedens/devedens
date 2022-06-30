@@ -3,7 +3,7 @@ import {aboutSectionData} from "../data/about-section"
 const AboutSection=() => {
   return (
     <section  className="about__container" id="about">
-      <h1 className="title__center">About</h1>
+      <h1 className="title">About</h1>
         <div className="about__list-container">
           <div>
           {aboutSectionData.text.map((data) => (

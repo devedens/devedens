@@ -5,7 +5,7 @@ const NavbarSection =() => {
   return (
     <nav className="navbar__container">
           {mainMenu.map((data) => (
-             <a className="navbar__option" href={"#"+data.href}>
+             <a className="navbar__option--dot" href={"#"+data.href}>
              {data.name}
            </a>
           ))}

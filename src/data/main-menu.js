@@ -1,17 +1,17 @@
 export const mainMenu = [
     {
       id:1,
-      name: "About",
+      name: "ABOUT",
       href: "about",
     },
     {
       id:2,
-      name: "Projects",
+      name: "PROJECTS",
       href: "projects",
     },
     {
       id:3,
-      name: "Contact",
+      name: "CONTACT",
       href: "contact",
     },
   ];

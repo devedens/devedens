@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactSection=() => {
   return (
-    <contact  id="contact" >
-     <h1 className="title__center">Contact</h1>
-    </contact>
+    <section  id="contact" >
+     <h1 className="title">Contact</h1>
+    </section>
   );
 };
 export default ContactSection;

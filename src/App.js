@@ -3,6 +3,7 @@ import AboutSection from "./sections/AboutSection";
 import ContactSection from "./sections/ContactSection";
 import NavbarSection from "./sections/NavbarSection";
 import ProjectsSection from "./sections/ProjectsSection";
+import StylesSection from "./sections/StylesSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutSection />
       <ProjectsSection />
       <ContactSection />
+      <StylesSection />
     </main>
   );
 }
